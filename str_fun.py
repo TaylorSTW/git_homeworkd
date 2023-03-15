@@ -1,7 +1,21 @@
 def str_function():
-    lower_line = input("Введите слово")
+    """
+    Функция, которая делает все буквы заглавными
+
+    """
+    lower_line = input("Введите слово ")
     for letter in lower_line:
         letter = lower_line.upper()
     return letter
 
-print(str_function())
+
+def new_str():
+    """
+    Функия, кторая делает первую букву заглавной
+
+    """
+    letter = input('Введите слово ').capitalize()
+    return letter
+
+
+print(new_str())

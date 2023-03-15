@@ -1,3 +1,5 @@
+"""Функция, делающая заглавные буквы вслове
+"""
 def str_function():
     lower_line = input("Введите слово")
     for letter in lower_line:
